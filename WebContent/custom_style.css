@@ -1,0 +1,46 @@
+.custom_form{
+  
+    background: #fafafa;
+    box-shadow: 0 0 3px #888;
+    height: 100%;
+    border-radius: 3px;
+    padding: 1.5em 0;
+  
+  }
+  .custom_form_control{
+  	padding: 0.175rem .75rem;
+  	 line-height: 1.3em;		
+  }
+  .custom_list > a{
+  	padding:5px 0 5px 50px !important;
+  	font-size:.9rem; 
+  
+  }
+  .custom_nav-link{
+  	color:#ffffff !important;
+  }
+  
+  .custom_menu_name{
+  	font-size:12px !important; 
+  	font-weight:bold;
+  	color: white !important;
+  	text-decoration: none !important;
+  }
+  
+  .div{
+    position: absolute;
+    left: -140px !important;
+  }
+  
+  @media (max-width:1080px) and (min-width:320px) {
+    .btn-space {
+        margin-bottom:10px;
+    }
+    .div{
+    position: relative;
+    left: 0 !important;
+    text-align: left;
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+}
